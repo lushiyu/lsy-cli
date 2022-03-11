@@ -1,0 +1,23 @@
+{
+  "name": "lsy-cli",
+  "version": "1.0.0",
+  "description": "脚手架工具",
+  "main": "",
+  "author": "lushiyu",
+  "type": "module",
+  "bin": {
+    "lsy-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^2.18.0",
+    "inquirer": "^8.2.1",
+    "ora": "^6.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
